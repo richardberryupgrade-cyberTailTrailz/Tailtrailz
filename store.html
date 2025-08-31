@@ -1,85 +1,81 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tail Trailz • Pet Store</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <script defer src="assets/script.js"></script>
-    <link rel="icon" href="assets/logo.png" type="image/png" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="site-header">
-      <div class="container header-inner">
-        <a href="index.html" class="brand">
-          <img src="assets/logo.png" alt="Tail Trailz logo" class="logo"/>
-          <span class="brand-text">Tail Trailz</span>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tail Trailz • Pet Store</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+  <script defer src="assets/script.js"></script>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="Tail Trailz logo" class="logo"/>
+        <span class="brand-text">Tail Trailz</span>
+      </a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="store.html">Pet Store</a>
+        <a href="contact.html" class="btn primary">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Store Section -->
+  <main class="container page">
+    <h1>Pet Store</h1>
+    <p class="muted">Order directly online — items ship straight from our trusted suppliers.</p>
+
+    <div class="product-grid">
+
+      <!-- LED Dog Collar -->
+      <div class="product-card">
+        <img src="assets/led-collar.jpg" alt="LED Dog Collar" class="product-image">
+        <h3>LED Dog Collar</h3>
+        <p>
+          Keep your dog safe and stylish with this rechargeable LED display collar.<br>
+          Program custom messages like your pet’s name or “Hello”!<br>
+          Perfect for night walks and visibility.
+        </p>
+        <p><strong>Price: £24.99</strong></p>
+        <a href="https://payhip.com/b/VQq9n" class="payhip-add-to-cart btn primary">
+          Add to Cart
         </a>
-        <nav class="nav">
-          <a href="services.html">Services</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="store.html">Pet Store</a>
-          <a href="contact.html" class="btn primary">Book</a>
-        </nav>
       </div>
-    </header>
 
-    <!-- Store Section -->
-    <main class="container page">
-      <h1>Pet Store</h1>
-      <p class="muted">Order directly online — items ship straight from our trusted suppliers.</p>
-<div class="product-grid">
+    </div>
+  </main>
 
-  <!-- LED Dog Collar -->
-  <div class="product-card">
-    <img src="assets/led-collar.jpg" alt="LED Dog Collar" class="product-image">
-    <h3>LED Dog Collar</h3>
-    <p>
-      Keep your dog safe and stylish with this rechargeable LED display collar. 
-      Program custom messages like your pet’s name or “Hello”! 
-      Perfect for night walks and visibility.
-    </p>
-    <p><strong>Price: £24.99</strong></p>
-    <a href="https://payhip.com/b/VQq9n" class="btn primary" target="_blank">
-      Buy Now
-    </a>
-  </div>
-
-</div>
-
-        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?123456&data_platform=code&data_date=2025-01-01" charset="utf-8"></script>
-        <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3)","categoryView=grid","searchView=list","id=my-store-123456");</script>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Tail Trailz</h4>
+        <p>Trusted dog walking & pet care across Preston and surrounding areas.</p>
+        <p class="muted">© 2025 Tail Trailz • All rights reserved.</p>
       </div>
-      <!-- 🔼 Ecwid snippet goes here -->
-    </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <h4>Tail Trailz</h4>
-          <p>Trusted dog walking & pet care across Preston and surrounding areas.</p>
-          <p class="muted">© 2025 Tail Trailz • All rights reserved.</p>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <ul class="list">
-            <li>📞 <a href="tel:+447801598085">07801 598 085</a></li>
-            <li>💬 <a href="https://wa.me/447801598085" target="_blank">WhatsApp us</a></li>
-            <li>✉️ <a href="mailto:tailtrailz.uk@gmail.com">tailtrailz.uk@gmail.com</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul class="list">
-            <li><a href="services.html">Services</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="store.html">Pet Store</a></li>
-            <li><a href="contact.html">Book now</a></li>
-          </ul>
-        </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="list">
+          <li>Email: info@tailtrailz.com</li>
+          <li>Phone: 07801 598085</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+
+  <!-- Payhip Floating Cart -->
+  <script>
+    Payhip.Setup({
+      cart: { showFloatingCart: true }
+    });
+  </script>
+
+</body>
 </html>
