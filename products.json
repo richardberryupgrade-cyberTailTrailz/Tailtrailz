@@ -1,0 +1,20 @@
+[
+  {
+    "title": "No-Pull Padded Harness",
+    "desc": "Comfortable everyday harness with front and back clips.",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1619983081563-430f63602796?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "title": "High-Value Training Treats",
+    "desc": "Soft, bite-sized treats perfect for reinforcing cues.",
+    "price": 6.5,
+    "image": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "title": "Weatherproof 5m Lead",
+    "desc": "Durable long-line lead for recall practice and adventures.",
+    "price": 12.0,
+    "image": "https://images.unsplash.com/photo-1522276498395-f4f68f7f8453?q=80&w=1200&auto=format&fit=crop"
+  }
+]
