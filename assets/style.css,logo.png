@@ -1,3 +1,5 @@
-assets/style.css
+<!-- Link to your stylesheet -->
 <link rel="stylesheet" href="assets/style.css">
-<img src="assets/logo.png" alt="Tail Trailz logo">
+
+<!-- Display your logo -->
+<img src="assets/logo.png" alt="Tail Trailz Logo" class="logo">
